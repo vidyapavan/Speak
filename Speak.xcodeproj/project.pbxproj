@@ -13,6 +13,8 @@
 		031435C01B0DAF6C00E23F4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031435BF1B0DAF6C00E23F4F /* Images.xcassets */; };
 		031435C31B0DAF6C00E23F4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031435C11B0DAF6C00E23F4F /* LaunchScreen.xib */; };
 		031435CF1B0DAF6C00E23F4F /* SpeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031435CE1B0DAF6C00E23F4F /* SpeakTests.swift */; };
+		031435DD1B0DDBCE00E23F4F /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 031435DC1B0DDBCE00E23F4F /* Button.png */; };
+		031435E11B0DE11B00E23F4F /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = 031435E01B0DE11B00E23F4F /* lion.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		031435C81B0DAF6C00E23F4F /* SpeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		031435CD1B0DAF6C00E23F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		031435CE1B0DAF6C00E23F4F /* SpeakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakTests.swift; sourceTree = "<group>"; };
+		031435DC1B0DDBCE00E23F4F /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		031435E01B0DE11B00E23F4F /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		031435B61B0DAF6C00E23F4F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				031435E01B0DE11B00E23F4F /* lion.png */,
+				031435DC1B0DDBCE00E23F4F /* Button.png */,
 				031435B71B0DAF6C00E23F4F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031435DD1B0DDBCE00E23F4F /* Button.png in Resources */,
+				031435E11B0DE11B00E23F4F /* lion.png in Resources */,
 				031435BE1B0DAF6C00E23F4F /* Main.storyboard in Resources */,
 				031435C31B0DAF6C00E23F4F /* LaunchScreen.xib in Resources */,
 				031435C01B0DAF6C00E23F4F /* Images.xcassets in Resources */,
@@ -407,6 +415,7 @@
 				031435D41B0DAF6C00E23F4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		031435D51B0DAF6C00E23F4F /* Build configuration list for PBXNativeTarget "SpeakTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				031435D71B0DAF6C00E23F4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
