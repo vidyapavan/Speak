@@ -1,2 +1,2 @@
-# speak
-A basic text to speech converter
+# Speak
+Speak is a basic text to speech converter.
