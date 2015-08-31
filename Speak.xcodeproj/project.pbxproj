@@ -15,6 +15,7 @@
 		031435CF1B0DAF6C00E23F4F /* SpeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031435CE1B0DAF6C00E23F4F /* SpeakTests.swift */; };
 		031435DD1B0DDBCE00E23F4F /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 031435DC1B0DDBCE00E23F4F /* Button.png */; };
 		031435E11B0DE11B00E23F4F /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = 031435E01B0DE11B00E23F4F /* lion.png */; };
+		03B814061B940D6800F3D6BA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B814051B940D6800F3D6BA /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		031435CE1B0DAF6C00E23F4F /* SpeakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakTests.swift; sourceTree = "<group>"; };
 		031435DC1B0DDBCE00E23F4F /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
 		031435E01B0DE11B00E23F4F /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
+		03B814051B940D6800F3D6BA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03B814061B940D6800F3D6BA /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		031435AA1B0DAF6C00E23F4F = {
 			isa = PBXGroup;
 			children = (
+				03B814051B940D6800F3D6BA /* AVFoundation.framework */,
 				031435B51B0DAF6C00E23F4F /* Speak */,
 				031435CB1B0DAF6C00E23F4F /* SpeakTests */,
 				031435B41B0DAF6C00E23F4F /* Products */,
@@ -347,8 +351,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Speak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -357,8 +363,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Speak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
